@@ -1,4 +1,4 @@
-- Nestified, the 1st dedicated Nest Thermostat desktop client!
+# Nestified, the 1st dedicated Nest Thermostat desktop client!
 
 - Free
 - Open Source
