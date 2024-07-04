@@ -1,0 +1,15 @@
+{
+  "name": "Nestified",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "description": "Nestified - Free & Open Source Nest Thermostat App",
+  "author": "Colebolebole",
+  "devDependencies": {
+    "electron": "^16.2.8"
+  }
+}
