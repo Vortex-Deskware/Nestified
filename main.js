@@ -1,5 +1,4 @@
-
-const { app, BrowserWindow } = require('electron');
+const { app, BrowserWindow, Menu } = require('electron');
 
 function createWindow() {
   const win = new BrowserWindow({
@@ -11,6 +10,8 @@ function createWindow() {
   });
 
   win.loadURL("https://home.nest.com");
+
+  Menu.setApplicationMenu(null);
 }
 
 app.whenReady().then(createWindow);
@@ -26,4 +27,3 @@ app.on('activate', () => {
     createWindow();
   }
 });
-        
